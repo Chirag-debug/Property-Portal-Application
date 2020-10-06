@@ -4,6 +4,7 @@ public class Buyer {
     private String firstName;
     private String lastName;
     private int mobileNo;
+    private int pinCode;
     private int budget;
 
     public String getFirstName() {
@@ -28,6 +29,14 @@ public class Buyer {
 
     public void setMobileNo(int mobileNo) {
         this.mobileNo = mobileNo;
+    }
+
+    public int getPinCode() {
+        return pinCode;
+    }
+
+    public void setPinCode(int pinCode) {
+        this.pinCode = pinCode;
     }
 
     public int getBudget() {
