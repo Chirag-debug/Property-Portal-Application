@@ -1,11 +1,13 @@
 package com.propertywalo.model;
 
-public class Seller {
+public class User {
     private String firstName;
     private String lastName;
     private int mobileNo;
     private int pinCode;
     private int listedPrice;
+    private int budget;
+    private boolean isBuyer;
 
     public String getFirstName() {
         return firstName;
@@ -45,5 +47,21 @@ public class Seller {
 
     public void setListedPrice(int listedPrice) {
         this.listedPrice = listedPrice;
+    }
+
+    public int getBudget() {
+        return budget;
+    }
+
+    public void setBudget(int budget) {
+        this.budget = budget;
+    }
+
+    public boolean isBuyer() {
+        return isBuyer;
+    }
+
+    public void setBuyer(boolean buyer) {
+        isBuyer = buyer;
     }
 }
